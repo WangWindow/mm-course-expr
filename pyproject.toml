@@ -1,0 +1,19 @@
+[project]
+name = "mm-course-expr"
+version = "0.1.0"
+description = "多媒体技术课程实验 1、2、3"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "numpy>=1.26.0",
+    "matplotlib>=3.8.0",
+    "scikit-learn>=1.4.0",
+    "scikit-image>=0.22.0",
+    "scipy>=1.11.0",
+    "pillow>=10.1.0",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.ustc.edu.cn/pypi/simple"
+default = true
